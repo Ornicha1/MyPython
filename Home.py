@@ -1,4 +1,4 @@
-import stremlit as st
+import streamlit as st
 
 st.header('Ornicha')
 col1, col2, col3 = st.columns(3)
