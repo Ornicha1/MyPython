@@ -1,8 +1,8 @@
 import streamlit as st
 
 st.header('Ornicha')
-   st.header("Mild")
-   st.image("./pic/Mild.jpg")
+st.header("Mild")
+st.image("./pic/Mild.jpg")
 col1, col2, col3 = st.columns(3)
 
 with col1:
