@@ -87,4 +87,4 @@ if st.button("ทำนายผล"):
    else: 
     st.image("./pic/iris3.jpg")
 else:
-    st.write("ไม่ทำนาย")
+    st.write("นางสาวอรณิชา เทียนทอง 6342339 63/43")
