@@ -34,6 +34,11 @@ st.markdown("")
 dt = pd.read_csv("./data/iris.csv")
 st.write(dt.head(10))
 
+dt1 = dt['petal.length'].sum()
+dt2 = dt['petal.width'].sum()
+dt3 = dt['sepal.length'].sum()
+dt4 = dt['sepal.width'].sum()
+
 
 
 html_8 = """
