@@ -40,8 +40,8 @@ sp_wd = st.number_input("กรุณาเลือกข้อมูล sepal.
 if st.button("ทำนายผล"):
     #st.markdow("ทำนาย")
     dt = pd.read_csv("./data/iris.csv") 
-   X = dt.drop('variety', axis=1)
-   y = dt.variety
+    X = dt.drop('variety', axis=1)
+    y = dt.variety
    
    Knn_model = KNeighborsClassifier(n_neighbors=3)
    Knn_model.fit(X, y)   
