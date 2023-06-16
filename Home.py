@@ -1,4 +1,4 @@
 import stremlit as st
 
-st.hrader('Ornicha')
+st.header('Ornicha')
 
